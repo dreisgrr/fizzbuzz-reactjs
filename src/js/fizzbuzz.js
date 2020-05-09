@@ -42,8 +42,4 @@ var sampleFizzBuzz = new FizzBuzz(
   100
 );
 
-function run() {
-  sampleFizzBuzz.process();
-}
-//module.exports = test;
-run();
+sampleFizzBuzz.process();
